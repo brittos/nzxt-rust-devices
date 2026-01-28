@@ -76,7 +76,7 @@ cargo run -- start --profile performance --source cpu --interval 5
   "startup": {
     "display_mode": "radial",   // "radial", "image", or "gif"
     "cooling_profile": "silent",
-    "temperature_source": "liquid",
+    "temperature_source": "liquid", // "liquid" or "cpu"
     "interval": 2,
     "brightness": 100,
     "orientation": 0
